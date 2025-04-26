@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		17D50F8E2DBCEE4900ABDCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17D50F6F2DBCEE4700ABDCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D50F762DBCEE4700ABDCA3;
+			remoteInfo = "Kebuke Ordering App";
+		};
+		17D50F982DBCEE4900ABDCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17D50F6F2DBCEE4700ABDCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D50F762DBCEE4700ABDCA3;
+			remoteInfo = "Kebuke Ordering App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17D50F772DBCEE4700ABDCA3 /* Kebuke Ordering App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kebuke Ordering App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D50F8D2DBCEE4900ABDCA3 /* Kebuke Ordering AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kebuke Ordering AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D50F972DBCEE4900ABDCA3 /* Kebuke Ordering AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kebuke Ordering AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		17D50F9F2DBCEE4900ABDCA3 /* Exceptions for "Kebuke Ordering App" folder in "Kebuke Ordering App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 17D50F762DBCEE4700ABDCA3 /* Kebuke Ordering App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		17D50F792DBCEE4700ABDCA3 /* Kebuke Ordering App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				17D50F9F2DBCEE4900ABDCA3 /* Exceptions for "Kebuke Ordering App" folder in "Kebuke Ordering App" target */,
+			);
+			path = "Kebuke Ordering App";
+			sourceTree = "<group>";
+		};
+		17D50F902DBCEE4900ABDCA3 /* Kebuke Ordering AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kebuke Ordering AppTests";
+			sourceTree = "<group>";
+		};
+		17D50F9A2DBCEE4900ABDCA3 /* Kebuke Ordering AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kebuke Ordering AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D50F742DBCEE4700ABDCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D50F8A2DBCEE4900ABDCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D50F942DBCEE4900ABDCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D50F6E2DBCEE4700ABDCA3 = {
+			isa = PBXGroup;
+			children = (
+				17D50F792DBCEE4700ABDCA3 /* Kebuke Ordering App */,
+				17D50F902DBCEE4900ABDCA3 /* Kebuke Ordering AppTests */,
+				17D50F9A2DBCEE4900ABDCA3 /* Kebuke Ordering AppUITests */,
+				17D50F782DBCEE4700ABDCA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17D50F782DBCEE4700ABDCA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D50F772DBCEE4700ABDCA3 /* Kebuke Ordering App.app */,
+				17D50F8D2DBCEE4900ABDCA3 /* Kebuke Ordering AppTests.xctest */,
+				17D50F972DBCEE4900ABDCA3 /* Kebuke Ordering AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17D50F762DBCEE4700ABDCA3 /* Kebuke Ordering App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D50FA02DBCEE4900ABDCA3 /* Build configuration list for PBXNativeTarget "Kebuke Ordering App" */;
+			buildPhases = (
+				17D50F732DBCEE4700ABDCA3 /* Sources */,
+				17D50F742DBCEE4700ABDCA3 /* Frameworks */,
+				17D50F752DBCEE4700ABDCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				17D50F792DBCEE4700ABDCA3 /* Kebuke Ordering App */,
+			);
+			name = "Kebuke Ordering App";
+			packageProductDependencies = (
+			);
+			productName = "Kebuke Ordering App";
+			productReference = 17D50F772DBCEE4700ABDCA3 /* Kebuke Ordering App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17D50F8C2DBCEE4900ABDCA3 /* Kebuke Ordering AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D50FA52DBCEE4900ABDCA3 /* Build configuration list for PBXNativeTarget "Kebuke Ordering AppTests" */;
+			buildPhases = (
+				17D50F892DBCEE4900ABDCA3 /* Sources */,
+				17D50F8A2DBCEE4900ABDCA3 /* Frameworks */,
+				17D50F8B2DBCEE4900ABDCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D50F8F2DBCEE4900ABDCA3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				17D50F902DBCEE4900ABDCA3 /* Kebuke Ordering AppTests */,
+			);
+			name = "Kebuke Ordering AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Kebuke Ordering AppTests";
+			productReference = 17D50F8D2DBCEE4900ABDCA3 /* Kebuke Ordering AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17D50F962DBCEE4900ABDCA3 /* Kebuke Ordering AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D50FA82DBCEE4900ABDCA3 /* Build configuration list for PBXNativeTarget "Kebuke Ordering AppUITests" */;
+			buildPhases = (
+				17D50F932DBCEE4900ABDCA3 /* Sources */,
+				17D50F942DBCEE4900ABDCA3 /* Frameworks */,
+				17D50F952DBCEE4900ABDCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D50F992DBCEE4900ABDCA3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				17D50F9A2DBCEE4900ABDCA3 /* Kebuke Ordering AppUITests */,
+			);
+			name = "Kebuke Ordering AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Kebuke Ordering AppUITests";
+			productReference = 17D50F972DBCEE4900ABDCA3 /* Kebuke Ordering AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17D50F6F2DBCEE4700ABDCA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					17D50F762DBCEE4700ABDCA3 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					17D50F8C2DBCEE4900ABDCA3 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 17D50F762DBCEE4700ABDCA3;
+					};
+					17D50F962DBCEE4900ABDCA3 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 17D50F762DBCEE4700ABDCA3;
+					};
+				};
+			};
+			buildConfigurationList = 17D50F722DBCEE4700ABDCA3 /* Build configuration list for PBXProject "Kebuke Ordering App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17D50F6E2DBCEE4700ABDCA3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 17D50F782DBCEE4700ABDCA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17D50F762DBCEE4700ABDCA3 /* Kebuke Ordering App */,
+				17D50F8C2DBCEE4900ABDCA3 /* Kebuke Ordering AppTests */,
+				17D50F962DBCEE4900ABDCA3 /* Kebuke Ordering AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17D50F752DBCEE4700ABDCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D50F8B2DBCEE4900ABDCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D50F952DBCEE4900ABDCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17D50F732DBCEE4700ABDCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D50F892DBCEE4900ABDCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D50F932DBCEE4900ABDCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17D50F8F2DBCEE4900ABDCA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17D50F762DBCEE4700ABDCA3 /* Kebuke Ordering App */;
+			targetProxy = 17D50F8E2DBCEE4900ABDCA3 /* PBXContainerItemProxy */;
+		};
+		17D50F992DBCEE4900ABDCA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17D50F762DBCEE4700ABDCA3 /* Kebuke Ordering App */;
+			targetProxy = 17D50F982DBCEE4900ABDCA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17D50FA12DBCEE4900ABDCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 487MR2MCZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kebuke Ordering App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Laurence.Kebuke-Ordering-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17D50FA22DBCEE4900ABDCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 487MR2MCZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kebuke Ordering App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Laurence.Kebuke-Ordering-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17D50FA32DBCEE4900ABDCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 487MR2MCZL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17D50FA42DBCEE4900ABDCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 487MR2MCZL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17D50FA62DBCEE4900ABDCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 487MR2MCZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Laurence.Kebuke-Ordering-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kebuke Ordering App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kebuke Ordering App";
+			};
+			name = Debug;
+		};
+		17D50FA72DBCEE4900ABDCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 487MR2MCZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Laurence.Kebuke-Ordering-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kebuke Ordering App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kebuke Ordering App";
+			};
+			name = Release;
+		};
+		17D50FA92DBCEE4900ABDCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 487MR2MCZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Laurence.Kebuke-Ordering-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kebuke Ordering App";
+			};
+			name = Debug;
+		};
+		17D50FAA2DBCEE4900ABDCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 487MR2MCZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Laurence.Kebuke-Ordering-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kebuke Ordering App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17D50F722DBCEE4700ABDCA3 /* Build configuration list for PBXProject "Kebuke Ordering App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D50FA32DBCEE4900ABDCA3 /* Debug */,
+				17D50FA42DBCEE4900ABDCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D50FA02DBCEE4900ABDCA3 /* Build configuration list for PBXNativeTarget "Kebuke Ordering App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D50FA12DBCEE4900ABDCA3 /* Debug */,
+				17D50FA22DBCEE4900ABDCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D50FA52DBCEE4900ABDCA3 /* Build configuration list for PBXNativeTarget "Kebuke Ordering AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D50FA62DBCEE4900ABDCA3 /* Debug */,
+				17D50FA72DBCEE4900ABDCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D50FA82DBCEE4900ABDCA3 /* Build configuration list for PBXNativeTarget "Kebuke Ordering AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D50FA92DBCEE4900ABDCA3 /* Debug */,
+				17D50FAA2DBCEE4900ABDCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17D50F6F2DBCEE4700ABDCA3 /* Project object */;
+}
