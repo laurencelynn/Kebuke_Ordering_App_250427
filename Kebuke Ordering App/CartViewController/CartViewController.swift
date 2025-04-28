@@ -9,6 +9,8 @@ import UIKit
 
 class CartViewController: UIViewController {
     
+    // Customer Name
+    private var customerName: String = ""
 
     // Cart Table View
     private let tableView = UITableView()
@@ -70,25 +72,43 @@ class CartViewController: UIViewController {
         confirmButton.addTarget(self, action: #selector(confirmButtonTapped), for: .touchUpInside)
     }
     
-    // MARK: - confirmButtonTapped API 傳資料給 Airtable
+    // MARK: - confirmButtonTapped 按下會跳出輸入訂購人名字
     @objc private func confirmButtonTapped() {
-        // 傳訂單給 Airtable
         guard !CartManager.shared.cartItems.isEmpty else {
-                showAlert(title: "購物車是空的", message: "請先加入飲料再送出")
-                return
+            showAlert(title: "購物車是空的", message: "請先加入飲料再送出！")
+            return
+        }
+        
+        // 彈出輸入名字的 Alert
+        let alert = UIAlertController(title: "請輸入訂購人名字", message: nil, preferredStyle: .alert)
+        alert.addTextField { textField in
+            textField.placeholder = "你的名字"
+        }
+        
+        let confirmAction = UIAlertAction(title: "送出", style: .default) { [weak self] _ in
+            guard let self = self else { return }
+            if let name = alert.textFields?.first?.text, !name.isEmpty {
+                self.customerName = name
+                self.sendOrders()
+            } else {
+                self.showAlert(title: "錯誤", message: "請輸入名字才能送出！")
             }
-            
-            // 送出每一杯訂單
-            // 都會傳到 Airtable
-            for item in CartManager.shared.cartItems {
-                postOrderToAirtable(orderItem: item)
-            }
-            // 並清空購物車
-            CartManager.shared.clear()
-            // 並重新載入畫面
-            tableView.reloadData()
-            // 並顯示送出成功提示
-            showAlert(title: "送出成功", message: "已成功送出訂單！")
+        }
+        
+        alert.addAction(confirmAction)
+        alert.addAction(UIAlertAction(title: "取消", style: .cancel))
+        
+        present(alert, animated: true)
+    }
+    
+    // MARK: - Send Orders 送出訂單
+    private func sendOrders() {
+        for item in CartManager.shared.cartItems {
+            postOrderToAirtable(orderItem: item)
+        }
+        CartManager.shared.clear()
+        tableView.reloadData()
+        showAlert(title: "送出成功", message: "已收到\(customerName)的訂單！")
     }
     
     //MARK: - Show Alert Message 送出訂單時使用
@@ -116,7 +136,8 @@ class CartViewController: UIViewController {
             "DrinkName": orderItem.drink.name,
             "Size": orderItem.size,
             "Sweetness": orderItem.sweetness,
-            "Ice": orderItem.ice
+            "Ice": orderItem.ice,
+            "CustomerName": customerName
         ]
 
         let body: [String: Any] = [

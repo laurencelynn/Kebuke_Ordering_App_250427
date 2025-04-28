@@ -16,16 +16,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let menuVC = MenuViewController()
         let cartVC = CartViewController()
+        let allOrdersVC = AllOrdersViewController()
 
         let tabBarController = UITabBarController()
         
         tabBarController.viewControllers = [
             UINavigationController(rootViewController: menuVC),
-            UINavigationController(rootViewController: cartVC)
+            UINavigationController(rootViewController: cartVC),
+            UINavigationController(rootViewController: allOrdersVC)
         ]
 
         menuVC.tabBarItem = UITabBarItem(title: "菜單", image: UIImage(systemName: "menucard"), tag: 0)
         cartVC.tabBarItem = UITabBarItem(title: "購物車", image: UIImage(systemName: "cart"), tag: 1)
+        allOrdersVC.tabBarItem = UITabBarItem(title: "所有訂單", image: UIImage(systemName: "list.bullet"), tag: 2)
 
         // 設定 TabBar 毛玻璃風格
         let appearance = UITabBarAppearance()
