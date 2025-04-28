@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		17D50F9F2DBCEE4900ABDCA3 /* Exceptions for "Kebuke Ordering App" folder in "Kebuke Ordering App" target */ = {
+		17D50FEB2DBDE72000ABDCA3 /* Exceptions for "Kebuke Ordering App" folder in "Kebuke Ordering App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -43,7 +43,7 @@
 		17D50F792DBCEE4700ABDCA3 /* Kebuke Ordering App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				17D50F9F2DBCEE4900ABDCA3 /* Exceptions for "Kebuke Ordering App" folder in "Kebuke Ordering App" target */,
+				17D50FEB2DBDE72000ABDCA3 /* Exceptions for "Kebuke Ordering App" folder in "Kebuke Ordering App" target */,
 			);
 			path = "Kebuke Ordering App";
 			sourceTree = "<group>";
@@ -292,11 +292,13 @@
 				DEVELOPMENT_TEAM = 487MR2MCZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kebuke Ordering App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = KEBUKE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,11 +322,13 @@
 				DEVELOPMENT_TEAM = 487MR2MCZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kebuke Ordering App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = KEBUKE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
